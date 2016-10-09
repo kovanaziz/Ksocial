@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  signInVC.swift
 //  ktechSocial
 //
 //  Created by Kovan Azeez on 10/9/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class signInVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

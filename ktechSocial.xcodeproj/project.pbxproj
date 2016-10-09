@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A2EF5B01DAA2B5900EB344C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */; };
-		0A2EF5B21DAA2B5900EB344C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B11DAA2B5900EB344C /* ViewController.swift */; };
+		0A2EF5B21DAA2B5900EB344C /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B11DAA2B5900EB344C /* signInVC.swift */; };
 		0A2EF5B51DAA2B5900EB344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B31DAA2B5900EB344C /* Main.storyboard */; };
 		0A2EF5B71DAA2B5900EB344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */; };
 		0A2EF5BA1DAA2B5900EB344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B81DAA2B5900EB344C /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		0A2EF5AC1DAA2B5900EB344C /* ktechSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktechSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A2EF5B11DAA2B5900EB344C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A2EF5B11DAA2B5900EB344C /* signInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
 		0A2EF5B41DAA2B5900EB344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2EF5B91DAA2B5900EB344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,15 +63,39 @@
 		0A2EF5AE1DAA2B5900EB344C /* ktechSocial */ = {
 			isa = PBXGroup;
 			children = (
-				0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */,
+				0A2EF5C51DAA2EDF00EB344C /* Controller */,
+				0A2EF5C41DAA2ED900EB344C /* View */,
+				0A2EF5C31DAA2ED000EB344C /* Model */,
 				0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */,
-				0A2EF5B11DAA2B5900EB344C /* ViewController.swift */,
 				0A2EF5B31DAA2B5900EB344C /* Main.storyboard */,
 				0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */,
 				0A2EF5B81DAA2B5900EB344C /* LaunchScreen.storyboard */,
+				0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */,
 				0A2EF5BB1DAA2B5900EB344C /* Info.plist */,
 			);
 			path = ktechSocial;
+			sourceTree = "<group>";
+		};
+		0A2EF5C31DAA2ED000EB344C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A2EF5C41DAA2ED900EB344C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A2EF5C51DAA2EDF00EB344C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EF5B11DAA2B5900EB344C /* signInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		DB4B9D6480C2B4A5129D0175 /* Frameworks */ = {
@@ -216,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2EF5B21DAA2B5900EB344C /* ViewController.swift in Sources */,
+				0A2EF5B21DAA2B5900EB344C /* signInVC.swift in Sources */,
 				0A2EF5B01DAA2B5900EB344C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
