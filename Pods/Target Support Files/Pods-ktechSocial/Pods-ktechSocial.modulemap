@@ -1,0 +1,6 @@
+framework module Pods_ktechSocial {
+  umbrella header "Pods-ktechSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

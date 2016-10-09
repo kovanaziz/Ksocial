@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2EF5B01DAA2B5900EB344C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */; };
+		0A2EF5B21DAA2B5900EB344C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B11DAA2B5900EB344C /* ViewController.swift */; };
+		0A2EF5B51DAA2B5900EB344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B31DAA2B5900EB344C /* Main.storyboard */; };
+		0A2EF5B71DAA2B5900EB344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */; };
+		0A2EF5BA1DAA2B5900EB344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5B81DAA2B5900EB344C /* LaunchScreen.storyboard */; };
+		0A2EF5C21DAA2B8900EB344C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */; };
+		E93894EBDA442820729D6D36 /* Pods_ktechSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6443262EF2082AF2EDDA3768 /* Pods_ktechSocial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2EF5AC1DAA2B5900EB344C /* ktechSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktechSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A2EF5B11DAA2B5900EB344C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A2EF5B41DAA2B5900EB344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A2EF5B91DAA2B5900EB344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A2EF5BB1DAA2B5900EB344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		105314FDDD8057DAA9040B66 /* Pods-ktechSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ktechSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ktechSocial/Pods-ktechSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		170C2B3A75941C2D155FA5F9 /* Pods-ktechSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ktechSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-ktechSocial/Pods-ktechSocial.release.xcconfig"; sourceTree = "<group>"; };
+		6443262EF2082AF2EDDA3768 /* Pods_ktechSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ktechSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2EF5A91DAA2B5800EB344C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93894EBDA442820729D6D36 /* Pods_ktechSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2EF5A31DAA2B5800EB344C = {
+			isa = PBXGroup;
+			children = (
+				0A2EF5AE1DAA2B5900EB344C /* ktechSocial */,
+				0A2EF5AD1DAA2B5900EB344C /* Products */,
+				E2CC4616ADF0788A7140782C /* Pods */,
+				DB4B9D6480C2B4A5129D0175 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2EF5AD1DAA2B5900EB344C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EF5AC1DAA2B5900EB344C /* ktechSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2EF5AE1DAA2B5900EB344C /* ktechSocial */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */,
+				0A2EF5AF1DAA2B5900EB344C /* AppDelegate.swift */,
+				0A2EF5B11DAA2B5900EB344C /* ViewController.swift */,
+				0A2EF5B31DAA2B5900EB344C /* Main.storyboard */,
+				0A2EF5B61DAA2B5900EB344C /* Assets.xcassets */,
+				0A2EF5B81DAA2B5900EB344C /* LaunchScreen.storyboard */,
+				0A2EF5BB1DAA2B5900EB344C /* Info.plist */,
+			);
+			path = ktechSocial;
+			sourceTree = "<group>";
+		};
+		DB4B9D6480C2B4A5129D0175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6443262EF2082AF2EDDA3768 /* Pods_ktechSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CC4616ADF0788A7140782C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				105314FDDD8057DAA9040B66 /* Pods-ktechSocial.debug.xcconfig */,
+				170C2B3A75941C2D155FA5F9 /* Pods-ktechSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2EF5AB1DAA2B5800EB344C /* ktechSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2EF5BE1DAA2B5900EB344C /* Build configuration list for PBXNativeTarget "ktechSocial" */;
+			buildPhases = (
+				ADEED3A620491943FE6AA282 /* [CP] Check Pods Manifest.lock */,
+				0A2EF5A81DAA2B5800EB344C /* Sources */,
+				0A2EF5A91DAA2B5800EB344C /* Frameworks */,
+				0A2EF5AA1DAA2B5800EB344C /* Resources */,
+				619295939E0984C76AE178E6 /* [CP] Embed Pods Frameworks */,
+				20A13939F24821EDF709FFB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ktechSocial;
+			productName = ktechSocial;
+			productReference = 0A2EF5AC1DAA2B5900EB344C /* ktechSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2EF5A41DAA2B5800EB344C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kovan Azeez";
+				TargetAttributes = {
+					0A2EF5AB1DAA2B5800EB344C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 429K539MD9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A2EF5A71DAA2B5800EB344C /* Build configuration list for PBXProject "ktechSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A2EF5A31DAA2B5800EB344C;
+			productRefGroup = 0A2EF5AD1DAA2B5900EB344C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2EF5AB1DAA2B5800EB344C /* ktechSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2EF5AA1DAA2B5800EB344C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2EF5BA1DAA2B5900EB344C /* LaunchScreen.storyboard in Resources */,
+				0A2EF5B71DAA2B5900EB344C /* Assets.xcassets in Resources */,
+				0A2EF5C21DAA2B8900EB344C /* GoogleService-Info.plist in Resources */,
+				0A2EF5B51DAA2B5900EB344C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20A13939F24821EDF709FFB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ktechSocial/Pods-ktechSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619295939E0984C76AE178E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ktechSocial/Pods-ktechSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEED3A620491943FE6AA282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2EF5A81DAA2B5800EB344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2EF5B21DAA2B5900EB344C /* ViewController.swift in Sources */,
+				0A2EF5B01DAA2B5900EB344C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A2EF5B31DAA2B5900EB344C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2EF5B41DAA2B5900EB344C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A2EF5B81DAA2B5900EB344C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2EF5B91DAA2B5900EB344C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2EF5BC1DAA2B5900EB344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A2EF5BD1DAA2B5900EB344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2EF5BF1DAA2B5900EB344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105314FDDD8057DAA9040B66 /* Pods-ktechSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 429K539MD9;
+				INFOPLIST_FILE = ktechSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ktechapp.ktechSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A2EF5C01DAA2B5900EB344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170C2B3A75941C2D155FA5F9 /* Pods-ktechSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 429K539MD9;
+				INFOPLIST_FILE = ktechSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ktechapp.ktechSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2EF5A71DAA2B5800EB344C /* Build configuration list for PBXProject "ktechSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2EF5BC1DAA2B5900EB344C /* Debug */,
+				0A2EF5BD1DAA2B5900EB344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2EF5BE1DAA2B5900EB344C /* Build configuration list for PBXNativeTarget "ktechSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2EF5BF1DAA2B5900EB344C /* Debug */,
+				0A2EF5C01DAA2B5900EB344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2EF5A41DAA2B5800EB344C /* Project object */;
+}
