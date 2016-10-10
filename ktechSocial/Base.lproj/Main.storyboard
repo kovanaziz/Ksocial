@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,11 +18,147 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Zv-P6-e5k" customClass="FancyView" customModule="ktechSocial" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.61176470588235299" green="0.15294117647058825" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="mrk-gk-5KV"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopes-logo" translatesAutoresizingMaskIntoConstraints="NO" id="dW3-Ep-zgy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="99F-Em-Wvu"/>
+                                    <constraint firstAttribute="width" constant="150" id="BLs-7g-pOq"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8QC-Lr-KgG" customClass="FancyView" customModule="ktechSocial" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.54908419532112862" green="0.13997305770819601" blue="0.64915040535444946" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="9cQ-u7-zBl"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kY2-7a-cwr">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-xQ-DQx">
+                                        <color key="backgroundColor" red="0.069887001164387022" green="0.62208219961846456" blue="0.8050268665158371" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="5aP-sD-BP3"/>
+                                            <constraint firstAttribute="width" constant="100" id="A1Q-L9-g3J"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignShadow" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignRadius" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="h1g-TG-LEO">
+                                        <color key="backgroundColor" red="0.69019607843137254" green="0.023529411764705882" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="UNd-uT-mOP"/>
+                                            <constraint firstAttribute="width" constant="100" id="hCj-gO-75g"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignShadow" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignRadius" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nnf" translatesAutoresizingMaskIntoConstraints="NO" id="dHi-1S-DOz">
+                                        <color key="backgroundColor" red="0.17254901960784313" green="0.2627450980392157" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="KS0-62-7qY"/>
+                                            <constraint firstAttribute="height" constant="100" id="yK4-Qk-qpb"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignRadius" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignShadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="a9m-Qb-pGL">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a new account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbC-vt-Ayi">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email adress ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aXu-Mj-e8I" customClass="FancyFeild" customModule="ktechSocial" customModuleProvider="target">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DU8-gU-k68" customClass="FancyFeild" customModule="ktechSocial" customModuleProvider="target">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olF-H4-hLU" customClass="FancyButton" customModule="ktechSocial" customModuleProvider="target">
+                                        <color key="backgroundColor" red="0.64313725490196083" green="0.20392156862745098" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CNc-S7-24m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Create">
+                                            <color key="titleColor" red="1" green="0.90439893867079946" blue="0.92348112154221473" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesignShadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="if you haven't signed in before, an account wil automatically created for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-4i-XPu">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="se0-dR-HAD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sign in method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cj-eW-Zn6">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VAx-5e-aJt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Zv-P6-e5k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="03j-cg-Tdc"/>
+                            <constraint firstItem="1Zv-P6-e5k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2il-OF-8jV"/>
+                            <constraint firstItem="8QC-Lr-KgG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8db-on-dzb"/>
+                            <constraint firstItem="0Cj-eW-Zn6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="GuB-X5-zH9"/>
+                            <constraint firstItem="kY2-7a-cwr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="H4x-7a-YgT"/>
+                            <constraint firstItem="eXd-4i-XPu" firstAttribute="centerY" secondItem="8QC-Lr-KgG" secondAttribute="centerY" id="HdG-Rp-R3v"/>
+                            <constraint firstItem="dW3-Ep-zgy" firstAttribute="centerX" secondItem="1Zv-P6-e5k" secondAttribute="centerX" id="KE5-LG-uC3"/>
+                            <constraint firstAttribute="trailing" secondItem="8QC-Lr-KgG" secondAttribute="trailing" id="LwT-xn-gcK"/>
+                            <constraint firstItem="a9m-Qb-pGL" firstAttribute="top" secondItem="kY2-7a-cwr" secondAttribute="bottom" constant="70" id="MUV-DE-wiI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8QC-Lr-KgG" secondAttribute="bottom" id="PLP-km-h5J"/>
+                            <constraint firstItem="0Cj-eW-Zn6" firstAttribute="top" secondItem="1Zv-P6-e5k" secondAttribute="bottom" constant="8" id="RDN-mb-yIZ"/>
+                            <constraint firstItem="eXd-4i-XPu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TCP-2L-Sc1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Cj-eW-Zn6" secondAttribute="trailing" constant="19" id="cWA-wi-lNT"/>
+                            <constraint firstAttribute="trailing" secondItem="kY2-7a-cwr" secondAttribute="trailing" constant="35" id="ewK-gt-KTC"/>
+                            <constraint firstAttribute="trailing" secondItem="a9m-Qb-pGL" secondAttribute="trailing" constant="35" id="hNW-L8-BcJ"/>
+                            <constraint firstItem="eXd-4i-XPu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iEJ-ox-ykP"/>
+                            <constraint firstAttribute="trailing" secondItem="1Zv-P6-e5k" secondAttribute="trailing" id="n7t-ug-qsb"/>
+                            <constraint firstItem="dW3-Ep-zgy" firstAttribute="centerY" secondItem="1Zv-P6-e5k" secondAttribute="centerY" id="p3R-Dq-ig8"/>
+                            <constraint firstItem="kY2-7a-cwr" firstAttribute="top" secondItem="0Cj-eW-Zn6" secondAttribute="bottom" constant="21" id="qZs-OA-GXL"/>
+                            <constraint firstItem="eXd-4i-XPu" firstAttribute="centerX" secondItem="8QC-Lr-KgG" secondAttribute="centerX" id="wdS-Gv-ddr"/>
+                            <constraint firstItem="a9m-Qb-pGL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="yEN-BH-8FL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="devslopes-logo" width="150" height="94"/>
+        <image name="g" width="50" height="44"/>
+        <image name="nnf" width="25" height="48"/>
+        <image name="t" width="51" height="41"/>
+    </resources>
 </document>
