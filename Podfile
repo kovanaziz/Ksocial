@@ -10,4 +10,7 @@ target 'ktechSocial' do
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
     pod 'Firebase/Storage'
+    # this the first step to add for auth login
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
 end

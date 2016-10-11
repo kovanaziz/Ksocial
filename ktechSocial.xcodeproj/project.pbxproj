@@ -31,6 +31,7 @@
 		0A2EF5BB1DAA2B5900EB344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2EF5C11DAA2B8900EB344C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A2EF5C81DAAC95400EB344C /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		0A9442D71DAC5C5200FFC07E /* ktechSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ktechSocial.entitlements; sourceTree = "<group>"; };
 		0AF982E11DAB75FB0057036B /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		0AF982E41DAB76440057036B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0AF982E61DAB7D640057036B /* FancyFeild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyFeild.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		0A2EF5AE1DAA2B5900EB344C /* ktechSocial */ = {
 			isa = PBXGroup;
 			children = (
+				0A9442D71DAC5C5200FFC07E /* ktechSocial.entitlements */,
 				0AF982E31DAB76310057036B /* Util */,
 				0A2EF5C51DAA2EDF00EB344C /* Controller */,
 				0A2EF5C41DAA2ED900EB344C /* View */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 429K539MD9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -391,6 +398,7 @@
 			baseConfigurationReference = 105314FDDD8057DAA9040B66 /* Pods-ktechSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ktechSocial/ktechSocial.entitlements;
 				DEVELOPMENT_TEAM = 429K539MD9;
 				INFOPLIST_FILE = ktechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -405,6 +413,7 @@
 			baseConfigurationReference = 170C2B3A75941C2D155FA5F9 /* Pods-ktechSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ktechSocial/ktechSocial.entitlements;
 				DEVELOPMENT_TEAM = 429K539MD9;
 				INFOPLIST_FILE = ktechSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

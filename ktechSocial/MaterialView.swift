@@ -22,7 +22,7 @@ extension UIImageView {
             cornerRadius = newValue
             
             if cornerRadius {
-                self.layer.cornerRadius = 50
+                self.layer.cornerRadius = 40
                 
             } else {
                 self.layer.cornerRadius = 0
